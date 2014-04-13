@@ -12,8 +12,10 @@ TARGET = Dado
 TEMPLATE = app
 
 
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    core/dado.cpp
 
-HEADERS  +=
+HEADERS  += \
+    core/dado.h
 
 FORMS    +=
