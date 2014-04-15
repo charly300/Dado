@@ -11,16 +11,16 @@ Dado::Dado()
     srand(time(NULL));
 }
 
-int Dado::shuffle()
+unsigned int Dado::shuffle()
 {
-
-
     num = rand() % 6 + 1;
+    this->notifyShuffle();
 
     return num;
 }
 
-void Dado::srand_()
+
+void Dado::notifyShuffle()
 {
 
 }

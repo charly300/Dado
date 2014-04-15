@@ -1,17 +1,21 @@
 #ifndef DADO_H
 #define DADO_H
 
-
+#include "controller/observerdado.h"
+#include <QList>
 
 class Dado
 {
 public:
     Dado();
 
-    int shuffle();
+    unsigned int shuffle();
 private:
-    int num;
-    void srand_();
+    unsigned int num;
+
+    void notifyShuffle();
+
+    QList<ObserverDado *> observers;
 };
 
 #endif // DADO_H

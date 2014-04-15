@@ -13,9 +13,20 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp \
-    core/dado.cpp
+    core/dado.cpp \
+    controller/observerdado.cpp \
+    ui/formdado.cpp \
+    ui/mainwindow.cpp
 
 HEADERS  += \
-    core/dado.h
+    core/dado.h \
+    controller/observerdado.h \
+    ui/formdado.h \
+    ui/mainwindow.h
 
-FORMS    +=
+FORMS    += \
+    ui/formdado.ui \
+    ui/mainwindow.ui
+
+RESOURCES += \
+    images.qrc
