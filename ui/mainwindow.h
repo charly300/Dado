@@ -2,6 +2,10 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "core/dado.h"
+#include "controller/controllerdado.h"
+
+
 
 namespace Ui {
 class MainWindow;
@@ -20,6 +24,9 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+
+    ControllerDado *controller;
+    Dado *dado;
 };
 
 #endif // MAINWINDOW_H

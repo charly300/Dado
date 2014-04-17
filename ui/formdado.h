@@ -15,7 +15,7 @@ public:
     explicit FormDado(QWidget *parent = 0);
     ~FormDado();
 
-    void setNum(unsigned int);
+    void setValue(unsigned int);
 
 private:
     void validarNumero(unsigned int);

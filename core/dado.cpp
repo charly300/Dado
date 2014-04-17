@@ -14,13 +14,6 @@ Dado::Dado()
 unsigned int Dado::shuffle()
 {
     num = rand() % 6 + 1;
-    this->notifyShuffle();
 
     return num;
-}
-
-
-void Dado::notifyShuffle()
-{
-
 }

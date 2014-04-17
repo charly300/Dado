@@ -14,15 +14,15 @@ TEMPLATE = app
 
 SOURCES += main.cpp \
     core/dado.cpp \
-    controller/observerdado.cpp \
     ui/formdado.cpp \
-    ui/mainwindow.cpp
+    ui/mainwindow.cpp \
+    controller/controllerdado.cpp
 
 HEADERS  += \
     core/dado.h \
-    controller/observerdado.h \
     ui/formdado.h \
-    ui/mainwindow.h
+    ui/mainwindow.h \
+    controller/controllerdado.h
 
 FORMS    += \
     ui/formdado.ui \

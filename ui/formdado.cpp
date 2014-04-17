@@ -14,7 +14,7 @@ FormDado::~FormDado()
     delete ui;
 }
 
-void FormDado::setNum(unsigned int num)
+void FormDado::setValue(unsigned int num)
 {
     this->validarNumero(num);
     this->loadImage(num);
